@@ -17,5 +17,11 @@ Aula 11
 
 Aula 12
 -git checkout arquivo -> retorna elimina uma modificação no arquivo antes do commit
--git reser HEAD arquivo.ext -> retorna do staged para o inicial
-sadasfd
+-git reset HEAD arquivo.ext -> retorna do staged para o inicial
+-git reset --soft(mata o commit retorna para o estado staged) --mixed(mata o commit retorna para unmodified) --hard(mata tudo q foi feito no commit), usa a rash do commit ao que se quer retornar
+
+aula 15
+-git remote add origin git@github.com:wanderley794/github-course.git ->subir repositorio pr o github
+-git remote/git remote -v -> mostra os repositorios upados para o github
+-git push -u origin master -> envia os arquios para o repositorio do github sentido origin<-master.
+
