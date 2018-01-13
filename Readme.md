@@ -25,3 +25,6 @@ aula 15
 -git remote/git remote -v -> mostra os repositorios upados para o github
 -git push -u origin master -> envia os arquios para o repositorio do github sentido origin<-master.
 
+aula 17
+-g clone endereçoDoRepositorio nomeAtribuido -> copia um repositorio do github para o da maquina
+
