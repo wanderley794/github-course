@@ -28,3 +28,8 @@ aula 15
 aula 17
 -g clone endereçoDoRepositorio nomeAtribuido -> copia um repositorio do github para o da maquina
 
+aula bramch 
+-git checkout -b testing -> cria um branch
+-git branch -> mostra os branch existentes
+-git checkout -b testing -> muda de um para o outro passando o nome do branch
+-git branch -D testing -> apaga um branch
