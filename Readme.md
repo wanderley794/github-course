@@ -31,5 +31,12 @@ aula 17
 aula bramch 
 -git checkout -b testing -> cria um branch
 -git branch -> mostra os branch existentes
--git checkout -b testing -> muda de um para o outro passando o nome do branch
+-git checkout  testing -> muda de um para o outro passando o nome do branch
 -git branch -D testing -> apaga um branch
+
+Aula unindo branchs, merge e rebase
+-git merge "nome do commit"-> cria um novo commit para unir os branchs
+-git rebase nome do branch-> leva os commits dos outros branchs para o topo da fila
+
+aula versionando com tags
+-git tag -a 1.0.0 -m "Readme finalizado"->cria um tag de versionamento de codigo
